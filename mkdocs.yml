@@ -1,2 +1,13 @@
 site_name: Project Calzone Documentation
 
+nav:
+  - Home: index.md
+  - Calzone Game: 
+    - About: "game/index.md"
+  - Calzone Web:
+    - About: "web/index.md"
+    - REST API CheatSheet: "web/REST API CheatSheet.md"
+  - About: about.md
+
+theme:
+  name: material
