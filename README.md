@@ -1,41 +1,12 @@
-# Website
+# Project Calzone Documentation
+This project is using MKDocs as it's documentation site generator.
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+# Contribution
+You don't need to ask permision to contribute, though if you are unsure of something, something's wrong, is confusing, or needs more clarification. Please [file an issue on GitHub](https://github.com/TailTwistStudios/Project-Calzone-Docs/issues) so we can address it.
 
-### Installation
+# Using MKDocs To contribute
+Because the documentation consists almost entirely out of markdown files, you don't need any other tools other than git and a text editor to contribute. Though if you'd like to export the static site or have a live usable version while you contribute; you'll need to use MKDocs.
 
-```
-$ yarn
-```
+Make sure you have Python installed and use `pip install mkdocs` to install the required packages, updating pip if needed.
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Once installed, use `mkdocs serve` to genearte a live preview. View the preview by going to `localhost:8000` in your web browser. To export a hostable version use `mkdocs build`. This will make a ready-to-host version available in the `site/` directory.
