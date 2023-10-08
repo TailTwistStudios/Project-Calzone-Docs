@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Welcome to Project Calzone
+Some important things to know about Project Calzone:
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Project Calzone is two-fold
+The *whole* of Project Calzone exists as two separate project working in tandem:
 
-## Commands
+- **Project Calzone Game** is a Godot 4 based game client. This is the game that Project Calzone users actually download and run.
+- **Project Calzone Web** is an ExpressJS based REST API that handles the game client's login, session management, friends-lists, and federation needs. 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Project Calzone Game
+## Project Calzone Web
