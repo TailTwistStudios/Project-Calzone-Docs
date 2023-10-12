@@ -6,7 +6,7 @@ nav:
     - About: "game/index.md"
   - Calzone Web:
     - About: "web/index.md"
-    - REST API CheatSheet: "web/REST API CheatSheet.md"
+    - REST API Quick Reference: "web/REST API Quick Reference.md"
   - About: about.md
 
 theme:
