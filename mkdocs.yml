@@ -3,10 +3,11 @@ site_name: Project Calzone Documentation
 nav:
   - Home: index.md
   - Calzone Game: 
-    - About: "game/index.md"
+    - Calzone Game: "game/index.md"
+    - Building From Source: "game/building-from-source.md"
   - Calzone Web:
-    - About: "web/index.md"
-    - REST API CheatSheet: "web/REST API CheatSheet.md"
+    - Calzone Web: "web/index.md"
+    - REST API Quick Reference: "web/REST API Quick Reference.md"
   - About: about.md
 
 theme:
