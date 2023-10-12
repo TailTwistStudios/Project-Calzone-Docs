@@ -16,3 +16,12 @@ The *whole* of Project Calzone exists as two separate project working in tandem:
 
 - [**Project Calzone Game**](./game/index.md) is a Godot 4 based game client. This is the game that Project Calzone users actually download and run.
 - [**Project Calzone Web**](./web/index.md) is an ExpressJS based REST API that handles the game client's login, session management, friends-lists, and federation needs. 
+
+# Project Philosophy
+These guidelines define 
+1. **Users need not understand the inner workings of the software in order to be able to use it.**
+2. **The software should provide explanation when something goes wrong.**
+3. **The project should be as self contained as possible and avoid using tools and libraries that unnessecarily complicate it's maintanance and use.**
+4. **No update shall be released without reasonable effort to update official documentation beforehand. Documentation updates should be considered a core part of maintaining the software.**
+5. **The project should prioritize open source or otherwise freely distributable libraries over proprietary ones.**
+6. **If a paid or proprietary library must be used, then if at all possible; the project should be organized as to not tie itself to one proprietary product.**
