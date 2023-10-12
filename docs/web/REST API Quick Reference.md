@@ -1,4 +1,4 @@
-# REST API CheatSheet
+# REST API Quick Reference
 A quick reference guide to all the REST API calls currently available.
 
 ## World Map (Mock-up)
