@@ -7,6 +7,7 @@ nav:
     - Building From Source: "game/building-from-source.md"
   - Calzone Web:
     - Calzone Web: "web/index.md"
+    - Building From Source: "web/building-from-source.md"
     - REST API Quick Reference: "web/REST API Quick Reference.md"
   - About: about.md
 
