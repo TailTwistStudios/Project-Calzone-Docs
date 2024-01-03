@@ -1,2 +1,1 @@
-# Ignore generated static site
-site/
+/site
